@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+   
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.main {
+    background-color: black;
+    color: white;
+
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 120px;
+    width: 100%;
+
+
+}
+
+.menu {
+    font-size: 10px;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 800px;
+    align-items: center;
+
+
+}
+
+.nav-list li a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.nav-list div {
+    width: 100px;
+    height: 2px;
+    background: red;
+}
+
+.navsearch i {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.content {
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    /* height: 100vh; */
+    padding: 154px 85px;
+    width: 35%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+span {
+
+    font-weight: 100;
+    color: red;
+}
+
+.box1 p {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 19px 0;
+    padding-right: 10px;
+}
+
+.box1 button {
+    width: 150px;
+    padding: 12px;
+    border-radius: 20px;
+    border: transparent;
+    background: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.box2 {
+    /* height: 100vh; */
+    width: 30%;
+    /* background: red; */
+}
+
+
+
+
+
+
+.center-bg {
+    margin-top: 60px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(coca\ cola.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+
+    
+   
+}
+
+.center-bg img {
+    filter: none;
+   
+    
+margin-top: -65px;
+margin-left: -45px;
+  
+}
+
+.box3 {
+    /* height: 100vh; */
+    width: 35%;
+    
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: gray;
+
+}
+hr{
+
+    display: flex;
+    width: 300px;
+    align-items: center;justify-content: center;
+    margin: 12px 104px
+    
+}
+.area{
+    display: flex;
+    justify-content: space-around;
+}
+.area p{
+    margin: 0 108px;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 12px;
+    color: rgb(144, 143, 143);
+}
+.Ingredients{
+    color:white;
+    margin-right: 213px;
+}
